@@ -25,7 +25,8 @@
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
@@ -42,6 +43,24 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.Authentication": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -82,7 +101,8 @@
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
@@ -103,6 +123,24 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.Authentication": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -143,7 +181,8 @@
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
@@ -164,6 +203,24 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.Authentication": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

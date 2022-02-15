@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">
+﻿<Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
@@ -10,6 +10,12 @@
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="6.0.2" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="6.0.2" PrivateAssets="all" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Authentication" Version="6.0.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="6.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\IMS.Plugins.EFCore\IMS.Plugins.EFCore.csproj" />
   </ItemGroup>
 
 </Project>
